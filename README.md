@@ -58,32 +58,12 @@ curl -X POST "https://api.macvendor.io/v1/lookup/bulk" \
 
 ## Table of Contents
 
-- [Features](#features)
 - [API Documentation](#api-documentation)
 - [OpenAPI](#openapi)
 - [Installation](#installation)
 - [Architecture](#architecture)
 - [Data Pipeline](#data-pipeline)
-- [Performance](#performance)
-- [Testing](#testing)
-- [Security](#security)
-- [Privacy](#privacy)
-- [Privacy Policy](#privacy-policy)
-- [Contributing](#contributing)
-- [Deployment](#deployment)
 - [License](#license)
-
-## Features
-
-- **Fast Lookup**: Sub-100ms response times with optimized database queries
-- **High Accuracy**: Curated database with 40,000+ vendor entries
-- **Bulk Processing**: Process up to 100 MAC addresses per request
-- **Open Source**: Fully open with community contributions welcome
-- **RESTful API**: Clean, documented REST interface
-- **API Key Security**: `x-api-key` header with tiered rate limits
-- **Rate Limited**: Fair usage with configurable limits per tier
-- **Data Fresh**: Regular updates from IEEE registration database
-- **JSON Responses**: Clean, structured JSON output
 
 ## API Documentation
 
